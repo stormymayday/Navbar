@@ -338,9 +338,9 @@ nav {
 
 /* Links are hidden by default */
 .links {
-    /* height: 0;
+    height: 0;
     overflow: hidden;
-    transition: var(--transition); */
+    transition: var(--transition);
 }
 
 /* toggle class */
