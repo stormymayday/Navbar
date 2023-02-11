@@ -275,3 +275,71 @@ ul {
 }
 
 /* title end */
+
+/*
+=============== 
+Navbar
+===============
+*/
+nav {
+    background-color: var(--white);
+    box-shadow: var(--shadow-2);
+    line-height: 1;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.logo span {
+    color: var(--primary-500);
+}
+
+.nav-toggle {
+    font-size: 1.5rem;
+    color: var(--primary-500);
+    background-color: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.nav-toggle:hover {
+    transform: rotate(90deg);
+}
+
+.social-icons {
+    display: none;
+}
+
+.links a {
+    color: var(--grey-700);
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+    display: block;
+    padding: 0.75rem 1rem;
+    transition: var(--transition);
+}
+
+.links a:hover {
+    background-color: var(--primary-300);
+    color: var(--primary-500);
+    padding-left: 1.5rem;
+}
+
+.links {
+    margin: 0;
+    /* todo height overflow transition */
+    /*  height 160px / 10rem */
+}
+
+.show-links {}
